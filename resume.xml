@@ -32,10 +32,11 @@
     <title>Computer Skills</title>
     <skillset>
       <title>Languages</title>
+      <skill>Haskell</skill>
+      <skill>Purescript</skill>
+      <skill>Clojure</skill>
       <skill>Scala</skill>
       <skill>PHP</skill>
-      <skill>Haskell</skill>
-      <skill>Clojure</skill>
       <skill>Java</skill>
       <skill>C#</skill>
       <skill>Python</skill>
@@ -68,6 +69,7 @@
       <title>Testing</title>
       <skill>ScalaTest</skill>
       <skill>QuickCheck</skill>
+      <skill>HUnit</skill>
       <skill>JUnit</skill>
       <skill>CPPUnit</skill>
       <skill>NUnit</skill>

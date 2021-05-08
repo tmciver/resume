@@ -12,15 +12,15 @@
       <middlenames>J.</middlenames>
       <surname>McIver</surname>
     </name>
-<!--    <address>
-      <street>2 Stanley Terrace</street>
-      <city>Woburn</city>
-      <state>MA</state>
-      <zip>01801</zip>
-    </address>-->
+   <address>
+      <street>863 Sawyer Street</street>
+      <city>South Portland</city>
+      <state>Maine</state>
+      <zip>04106</zip>
+    </address>
     <contact>
 <!--      <phone>781-933-2143</phone>-->
-      <email>tim@timmciver.com</email>
+      <!-- <email>tim@timmciver.com</email> -->
     </contact>
   </header>
   
@@ -28,25 +28,191 @@
     <para>To live a long, happy and fulfilling life with those that I love, doing what I love.</para>
   </objective>
 
-  <skillarea>
-    <title>Skills</title>
-    <skillset targets="scientific">
-      <title>Computer</title>
-      <skill>Proficient in Java, C/C++, C#, Python, Matlab and Clojure programming languages</skill>
-      <skill>Proficient with Emacs, Eclipse and Visual Studio</skill>
-      <skill>Proficient with Subversion and Git version control systems</skill>
-      <skill>Proficient with Make and Ant build systems</skill>
-      <skill>Proficient with unit testing (JUnit, CPPUnit)</skill>
-      <skill>Proficient with both Windows and Unix environments</skill>
-      <skill>Proficient with XML/XHTML and web standards</skill>
+  <skillarea targets="scientific">
+    <title>Computer Skills</title>
+    <skillset>
+      <title>Languages</title>
+      <skill>Scala</skill>
+      <skill>PHP</skill>
+      <skill>Haskell</skill>
+      <skill>Clojure</skill>
+      <skill>Java</skill>
+      <skill>C#</skill>
+      <skill>Python</skill>
+      <skill>C/C++</skill>
     </skillset>
-    <skillset targets="automotive">
-      <title>Automotive</title>
+    <skillset>
+      <title>IDEs</title>
+      <skill>Emacs</skill>
+      <skill>IntelliJ</skill>
+      <skill>Eclipse</skill>
+      <skill>Netbeans</skill>
+      <skill>Visual Studio</skill>
+    </skillset>
+    <skillset>
+      <title>Version Control</title>
+      <skill>Git</skill>
+      <skill>Subversion</skill>
+    </skillset>
+    <skillset>
+      <title>Build Systems</title>
+      <skill>SBT</skill>
+      <skill>Cabal</skill>
+      <skill>Stack</skill>
+      <skill>Maven</skill>
+      <skill>Ant</skill>
+      <skill>Make</skill>
+      <skill>Leiningen</skill>
+    </skillset>
+    <skillset>
+      <title>Testing</title>
+      <skill>ScalaTest</skill>
+      <skill>QuickCheck</skill>
+      <skill>JUnit</skill>
+      <skill>CPPUnit</skill>
+      <skill>NUnit</skill>
+      <skill>PHPUnit</skill>
+    </skillset>
+    <skillset>
+      <title>Operating Systems</title>
+      <skill>Linux</skill>
+      <skill>Mac OSX</skill>
+      <skill>Windows</skill>
+    </skillset>
+    <skillset>
+      <title>Web Programming</title>
+      <skill>REST</skill>
+      <skill>Hypermedia APIs</skill>
+      <skill>X?HTML</skill>
+      <skill>Typescript</skill>
+      <skill>Javascript</skill>
+      <skill>Amazon Web Services (AWS)</skill>
+      <skill>Docker</skill>
+    </skillset>
+  </skillarea>
+
+  <skillarea targets="automotive">
+    <title>Automotive Skills</title>
+    <skillset>
       <skill>Proficient in general auto repair.  ASE certified (1995-2000)</skill>
     </skillset>
   </skillarea>
-  
+
   <history>
+    <job>
+      <jobtitle>Contract/Freelance Software Engineer</jobtitle>
+      <location>
+	<city>South Portland</city>
+	<state>Maine</state>
+      </location>
+      <period>
+	<from>
+	  <date>
+	    <month>February</month>
+	    <year>2018</year>
+	  </date>
+	</from>
+	<to>
+          <present/>
+	</to>
+      </period>
+      <description>Currently working as a freelance/contract software engineer helping clients to grow their small businesses.</description>
+      <projects>
+        <project>Contracted with a local financial services company to maintain a Python web application based on the Django framework.</project>
+	<project>Helping a local client to optimize his flower-selling businesses (48longstems.com, recitalflowers.org, flowersforfundraising.com) by upgrading an order service application. (PHP, Codeignitor)</project>
+	<project>Fixed several bugs in an application that scrapes a website for arrest records. Added a simple web application front-end to it. (Python, Django, AWS)</project>
+	<project>Helped a client to filter elements from large XML files. (Python, Big Data)</project>
+        <project>Documenting an existing web API using the OpenAPI standard (Swagger).</project>
+      </projects>
+    </job>
+
+    <job>
+      <jobtitle>Senior Software Engineer</jobtitle>
+      <employer><link href="https://maxwellhealth.com">Maxwell Health</link></employer>
+      <location>
+	<city>Boston</city>
+	<state>Massachusetts</state>
+      </location>
+      <period>
+	<from>
+	  <date>
+	    <month>February</month>
+	    <year>2017</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>December</month>
+	    <year>2017</year>
+	  </date>
+	</to>
+      </period>
+      <description><link href="https://maxwellhealth.com">Maxwell Health</link> provides small to mid-size companies with an HR and benefits solution through its suite of web applications.  There are solutions for insurance brokers, employers and employees alike.</description>
+      <projects>
+	<project>I helped Maxwell Health bring a new "Open Enrollment" service to market using the Scala programming language to create a microservice together with a front-end written in ReactJS. I utilized my expertise in functional programming techniques and leveraged the Cats Scala library to write very robust code.</project>
+	<project>I worked in a group that was creating a set of microservices to implement an insurance product library. Projects were mostly written in Typescript.</project>
+	<project>I've given several presentations to engineering at Maxwell Health on such topics as <link href="https://tmciver.github.io/ddd-presentation/">"Domain-Driven Design"</link>, <link href="https://tmciver-maxwell.github.io/adt-in-scala/">"Abstract Data Types"</link> and <link href="https://tmciver.github.io/pattern-matching-in-oop">"Pattern Matching in OOP"</link>.</project>
+      </projects>
+    </job>
+    
+    <job>
+      <jobtitle>Senior Software Engineer</jobtitle>
+      <employer><link href="http://http://www.mheducation.com">McGraw-Hill Education</link></employer>
+      <location>
+	<city>Boston</city>
+	<state>Massachusetts</state>
+      </location>
+      <period>
+	<from>
+	  <date>
+	    <month>November</month>
+	    <year>2014</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>February</month>
+	    <year>2017</year>
+	  </date>
+	</to>
+      </period>
+      <description><link href="http://http://www.mheducation.com">McGraw-Hill Education</link> is a leader in educational software and prides itself in being a learning sciences company. During my time at McGraw-Hill I've become an expert in <link href="https://www.imsglobal.org/activity/learning-tools-interoperability">Learning Tools Interoperability</link> (Learning Tools Interoperability, an <link href="https://www.imsglobal.org/">IMS Global</link> specification), CQRS, Event Sourcing and microservices.</description>
+      <projects>
+	<project>Worked to migrate a large legacy code base, written in a proprietary functional programming language, to a microservices architecture by building new services and incrementally hooking them in to the legacy system. New microservices being written in PHP, Scala and Haskell.</project>
+	<project>Built an LTI service to support various integration efforts for both internal and external clients.</project>
+	<project>Created a <link href="https://github.com/tmciver/functional-php">functional programming library in PHP</link> that is used in production environments to support integration efforts.</project>
+        <project>Helped maintain and enhance a Haskell codebase used to parse a proprietary binary file format.</project>
+      </projects>
+    </job>
+
+    <job>
+      <jobtitle>Software Engineer</jobtitle>
+      <employer><link href="http://lambdaprime.com/">Lambda Prime</link></employer>
+      <location>
+	<city>Boston</city>
+	<state>Massachusetts</state>
+      </location>
+      <period>
+	<from>
+	  <date>
+	    <month>May</month>
+	    <year>2014</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>November</month>
+	    <year>2014</year>
+	  </date>
+	</to>
+      </period>
+      <description><link href="http://lambdaprime.com/">Lambda Prime</link> is a privately held technology development fund with offices and research lab facilities in New York, Boston, and Pittsfield (MA).</description>
+      <projects>
+	<project>Create and maintain web crawlers in Clojure using clj-http (http client), enlive (templating library) among other libraries. Each crawler is gen-classed and packaged as an OSGi bundle to be consumed by a UI.</project>
+	<project>Create a Leiningen plugin to facilitate the creation of OSGi bundle from an uberjar.</project>
+      </projects>
+    </job>
+
     <job>
       <jobtitle>Software Engineer</jobtitle>
       <employer><link href="http://www.corista.com/">Corista, LLC</link></employer>
@@ -62,7 +228,10 @@
 	  </date>
 	</from>
 	<to>
-	  <present />
+	  <date>
+	    <month>March</month>
+	    <year>2014</year>
+	  </date>
 	</to>
       </period>
       <description><link href="http://www.corista.com/">Corista</link> is a software company whose flagship product is a digital pathology web application platform that assists pathologists in remote diagnoses.</description>
@@ -73,287 +242,288 @@
 	<project>Maintenance on a Java Servlets codebase.</project>
 	<project>Maintenance on a Ruby on Rails codebase.</project>
       </projects>
-      <achievements>
-	<achievement>Took course in <link href="https://www.coursera.org/course/automata">automata theory</link> given by Professor Jeffrey Ullman through <link href="https://www.coursera.org">Coursera</link>.</achievement>
-      </achievements>
     </job>
+
     <job>
       <jobtitle>Digital Forensics Engineer</jobtitle>
       <employer><link href="http://www.basistech.com">Basis Technology</link> (Digital Forensics Group)</employer>
       <location>
-	<city>Cambridge</city>
-	<state>Massachusetts</state>
+        <city>Cambridge</city>
+        <state>Massachusetts</state>
       </location>
       <period>
-	<from>
-	  <date>
-	    <month>May</month>
-	    <year>2010</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>May</month>
-	    <year>2013</year>
-	  </date>
-	</to>
+        <from>
+          <date>
+            <month>May</month>
+            <year>2010</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>May</month>
+            <year>2013</year>
+          </date>
+        </to>
       </period>
       <description><link href="http://www.basistech.com">Basis Technology</link> is a text analytics company that has a small but growing digital forensics group of which I was a part.</description>
       <projects>
-	<project>Developer of Autopsy, a module-based Netbeans GUI frontend to <link href="http://www.sleuthkit.org">The Sleuth Kit</link></project>
-	<project>Developed a Symbian phone OS application for a client</project>
-	<project>Developed a Java application to translate FLASH memory dumps from Mediatek-based mobile phones into FAT12 file system.</project>
-	<project>Main developer of the Memory Parsing Framework (MPF), a C++ application that leverages forensic functionality from <link href="http://www.sleuthkit.org">The Sleuth Kit</link> library to extract forensically-important data from a variety of mobile phones.</project>
+        <project>Developer of Autopsy, a module-based Netbeans GUI frontend to <link href="http://www.sleuthkit.org">The Sleuth Kit</link></project>
+        <project>Developed a Symbian phone OS application for a client</project>
+        <project>Developed a Java application to translate FLASH memory dumps from Mediatek-based mobile phones into FAT12 file system.</project>
+        <project>Main developer of the Memory Parsing Framework (MPF), a C++ application that leverages forensic functionality from <link href="http://www.sleuthkit.org">The Sleuth Kit</link> library to extract forensically-important data from a variety of mobile phones.</project>
       </projects>
-      <achievements>
-	<achievement>Online course through <link href="http://www.coursera.org">Coursera.org</link>: <link href="http://www.coursera.org/course/ml">Machine Learning</link>, Fall 2012</achievement>
-	<achievement>Online course through <link href="http://www.edx.org">MIT edX</link>: <link href="http://www.edx.org/courses/MITx/6.002x/2013_Spring/about">6.002x Circuits and Electronics</link>, Fall 2012</achievement>
-      </achievements>
     </job>
+
     <job>
       <jobtitle>Software Engineer</jobtitle>
       <employer><link href="http://www.raytheon.com">Raytheon Corporation</link></employer>
       <location>
-	<city>Woburn</city>
-	<state>Massachusetts</state>
+        <city>Woburn</city>
+        <state>Massachusetts</state>
       </location>
       <period>
-	<from>
-	  <date>
-	    <month>February</month>
-	    <year>2009</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>April</month>
-	    <year>2010</year>
-	  </date>	
-	</to>
+        <from>
+          <date>
+            <month>February</month>
+            <year>2009</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>April</month>
+            <year>2010</year>
+          </date>
+        </to>
       </period>
       <description><link href="http://www.raytheon.com">Raytheon</link> is large defense contractor.  I worked as a software engineer in three different groups while I was there.</description>
       <projects>
-	<project>C++ Developer on CRUSHM, a simulator for the THAAD radar system.</project>
-	<project>C++ Developer on MMAT (Multi-Mission Analysis Tool) project, a simulation environment for the Zumwalt project</project>
-	<project>Java Developer on JFIRES project, a distributed space threat analysis simulation environment.  Wrote Java library for propagation of Earth-orbiting satellites.</project>
+        <project>C++ Developer on CRUSHM, a simulator for the THAAD radar system.</project>
+        <project>C++ Developer on MMAT (Multi-Mission Analysis Tool) project, a simulation environment for the Zumwalt project</project>
+        <project>Java Developer on JFIRES project, a distributed space threat analysis simulation environment.  Wrote Java library for propagation of Earth-orbiting satellites.</project>
       </projects>
     </job>
+
     <job>
       <jobtitle>Software Engineer</jobtitle>
       <employer><link href="http://www.ll.mit.edu">MIT Lincoln Laboratory</link></employer>
       <location>
-	<city>Lexington</city>
-	<state>Massachusetts</state>
+        <city>Lexington</city>
+        <state>Massachusetts</state>
       </location>
       <period>
-	<from>
-	  <date>
-	    <month>October</month>
-	    <year>2007</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>February</month>
-	    <year>2009</year>
-	  </date>	
-	</to>
+        <from>
+          <date>
+            <month>October</month>
+            <year>2007</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>February</month>
+            <year>2009</year>
+          </date>
+        </to>
       </period>
       <description>
-	<para>Worked in Group 95 (formerly Group 903), Space Systems Analysis.</para>
+        <para>Worked in Group 95 (formerly Group 903), Space Systems Analysis.</para>
       </description>
       <projects>
-	<project>Design and implement simulation framework in Java for a space system analysis tool. Knowledgeable in event-based and process-interaction based simulation.</project>
-	<project>Developed radar and optical sensor models for simulation.</project>
+        <project>Design and implement simulation framework in Java for a space system analysis tool. Knowledgeable in event-based and process-interaction based simulation.</project>
+        <project>Developed radar and optical sensor models for simulation.</project>
       </projects>
       <achievements>
-	<achievement>Took five-day course titled "Simulation Modeling for System Design and Analysis" given by Averill Law, author of "Simulation Modeling and Analysis"</achievement>
-	<achievement>Took course in multi-core programming at MIT given by Nir Shavit and Maurice Herlihy</achievement>
+        <achievement>Took five-day course titled "Simulation Modeling for System Design and Analysis" given by Averill Law, author of "Simulation Modeling and Analysis"</achievement>
+        <achievement>Took course in multi-core programming at MIT given by Nir Shavit and Maurice Herlihy</achievement>
       </achievements>
     </job>
+
     <job>
       <jobtitle>Research Engineer</jobtitle>
       <employer><link href="http://www.lockheedmartin.com">Lockheed Martin Corp.</link></employer>
       <location>
-	<city>Lexington</city>
-	<state>Massachusetts</state>
+        <city>Lexington</city>
+        <state>Massachusetts</state>
       </location>
       <period>
-	<from>
-	  <date>
-	    <month>April</month>
-	    <year>2004</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>October</month>
-	    <year>2007</year>
-	  </date>
-	</to>
+        <from>
+          <date>
+            <month>April</month>
+            <year>2004</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>October</month>
+            <year>2007</year>
+          </date>
+        </to>
       </period>
       <description>
-	<para>Worked as a subcontractor at MIT Lincoln Laboratory.</para>
+        <para>Worked as a subcontractor at MIT Lincoln Laboratory.</para>
       </description>
       <projects>
-	<project>Worked in Group 95 from October 2006 to October 2007.  Work done as MIT Lincoln Laboratory employee in Group 95 begun while employed by Lockheed Martin.  See next most recent listing for work performed.</project>
-	<project>Worked in Group 106 from January 2006 to September 2006. Test Geiger-mode Avalanche Photo-Diodes (APD), specifically, measure dark count rate, photo-detection efficiency and timing jitter. Support upgrade of board support package for Raptor and Manta SBC's from Curtis Wright Controls Embedded Computing used in Jigsaw project. Wrote Linux filesystem kernel module (in C) to interface Conduant Corp.'s StreamStor high-capacity data acquisition system with Linux operating system.
-	</project>
-	<project>Work in Group 99, Advanced Space Systems and Concepts, from April 2004 to December 2005. Part of Mars Laser Communication Demonstration Project. Test Geiger-mode Avalanche Photo-Diodes (APD), specifically, measure dark count rate and photo-detection efficiency. Gained experience in lasers and optics.Embedded system programming in C using RTOS (&#x3bc;C/OS) for closed-loop control of a fast-steering mirror for image stabilization.
-	</project>
+        <project>Worked in Group 95 from October 2006 to October 2007.  Work done as MIT Lincoln Laboratory employee in Group 95 begun while employed by Lockheed Martin.  See next most recent listing for work performed.</project>
+        <project>Worked in Group 106 from January 2006 to September 2006. Test Geiger-mode Avalanche Photo-Diodes (APD), specifically, measure dark count rate, photo-detection efficiency and timing jitter. Support upgrade of board support package for Raptor and Manta SBC's from Curtis Wright Controls Embedded Computing used in Jigsaw project. Wrote Linux filesystem kernel module (in C) to interface Conduant Corp.'s StreamStor high-capacity data acquisition system with Linux operating system.
+        </project>
+        <project>Work in Group 99, Advanced Space Systems and Concepts, from April 2004 to December 2005. Part of Mars Laser Communication Demonstration Project. Test Geiger-mode Avalanche Photo-Diodes (APD), specifically, measure dark count rate and photo-detection efficiency. Gained experience in lasers and optics.Embedded system programming in C using RTOS (&#x3bc;C/OS) for closed-loop control of a fast-steering mirror for image stabilization.
+        </project>
       </projects>
     </job>
+
     <job>
       <jobtitle>Assistant Scientist</jobtitle>
       <employer><link href="http://www.sensarrayinfrared.com">Sensarray Infrared Corp.</link></employer>
       <location>
-	<city>Burlington</city>
-	<state>Massachusetts</state>
+        <city>Burlington</city>
+        <state>Massachusetts</state>
       </location>
       <period>
-	<from>
-	  <date>
-	    <month>April</month>
-	    <year>2003</year>
-	  </date>
-	</from>
-	<to>
-	  <date>
-	    <month>April</month>
-	    <year>2004</year>
-	  </date>
-	</to>
+        <from>
+          <date>
+            <month>April</month>
+            <year>2003</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>April</month>
+            <year>2004</year>
+          </date>
+        </to>
       </period>
       <description>
-	<para>Sensarray specializes in the manufacture of arrays of chemically-deposited Lead salt infrared detectors, specifically PbS and PbSe.</para>
+        <para>Sensarray specializes in the manufacture of arrays of chemically-deposited Lead salt infrared detectors, specifically PbS and PbSe.</para>
       </description>
       <projects>
-	<project>Worked with senior scientist growing Erbium-doped KPbCl crystals as a low-phonon energy IR laser host.  Gained experience in crystal growth and purification.</project>
-	<project>Designed, built and wrote software for a zone-refiner - a machine used to purify crystal material.</project>
-	<project>Assisted in detector manufacturing and testing.  Gained experience in photolithography, vacuum systems and probing stations.</project>
+        <project>Worked with senior scientist growing Erbium-doped KPbCl crystals as a low-phonon energy IR laser host.  Gained experience in crystal growth and purification.</project>
+        <project>Designed, built and wrote software for a zone-refiner - a machine used to purify crystal material.</project>
+        <project>Assisted in detector manufacturing and testing.  Gained experience in photolithography, vacuum systems and probing stations.</project>
       </projects>
     </job>
+
     <job targets="automotive">
       <jobtitle>Commercial Parts Manager</jobtitle>
       <employer><link href="http://www.autozone.com">Autozone</link></employer>
       <location>
-	<city>Billerica</city>
-	<state>Massachusetts</state>
+        <city>Billerica</city>
+        <state>Massachusetts</state>
       </location>
+      <period>
+        <from>
+          <date>
+            <month>May</month>
+            <year>2002</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>April</month>
+            <year>2003</year>
+          </date>
+        </to>
+      </period>
+      <description>
+        <para>Resposible for 20+ accounts and two employees. Duties included processing orders for parts from local auto repair shops and organizing deliveries.</para>
+      </description>
+    </job>
+
+    <job targets="scientific">
+      <jobtitle>Research Assistant</jobtitle>
+      <employer>University of Massachusetts</employer>
       <period>
 	<from>
 	  <date>
-	    <month>May</month>
-	    <year>2002</year>
+	    <month>September</month>
+	    <year>1999</year>
 	  </date>
 	</from>
 	<to>
 	  <date>
-	    <month>April</month>
-	    <year>2003</year>
+	    <month>June</month>
+	    <year>2001</year>
 	  </date>
 	</to>
       </period>
       <description>
-	<para>Resposible for 20+ accounts and two employees. Duties included processing orders for parts from local auto repair shops and organizing deliveries.</para>
+	<para>Member of HI-SPIN (Heavy Ions and SPectroscopic Investigations of Nuclei), a research group headed by Dr. Partha Chowdhury. HI-SPIN looks at high angular momentum isomers of excited heavy nuclei by detecting and analyzing gamma ray bursts.</para>
+      </description>
+      <projects>
+	<project>Participated in an experiment performed by the HI-SPIN research group during the summer of 2001. Experiment was conducted at Lawrence Berkeley National Laboratory, Berkeley, California.</project>
+      </projects>
+    </job>
+    <job targets="scientific">
+      <jobtitle>Tutor</jobtitle>
+      <employer>University of Massachusetts, Center for Learning</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>September</month>
+	    <year>1999</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>June</month>
+	    <year>2001</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>Tutored students in mathematics and physics.</para>
       </description>
     </job>
-    <!--		<job targets="scientific">
-			<jobtitle>Research Assistant</jobtitle>
-			<employer>University of Massachusetts</employer>
-			<period>
-			  <from>
-			    <date>
-			      <month>September</month>
-			      <year>1999</year>
-			    </date>
-			  </from>
-			  <to>
-			    <date>
-			      <month>June</month>
-			      <year>2001</year>
-			    </date>
-			  </to>
-			</period>
-			<description>
-			  <para>Member of HI-SPIN (Heavy Ions and SPectroscopic Investigations of Nuclei), a research group headed by Dr. Partha Chowdhury. HI-SPIN looks at high angular momentum isomers of excited heavy nuclei by detecting and analyzing gamma ray bursts.</para>
-			</description>
-			<projects>
-			  <project>Participated in an experiment performed by the HI-SPIN research group during the summer of 2001. Experiment was conducted at Lawrence Berkeley National Laboratory, Berkeley, California.</project>
-			</projects>
-			</job>
-			<job targets="scientific">
-			  <jobtitle>Tutor</jobtitle>
-			  <employer>University of Massachusetts, Center for Learning</employer>
-			  <period>
-			    <from>
-			      <date>
-				<month>September</month>
-				<year>1999</year>
-			      </date>
-			    </from>
-			    <to>
-			      <date>
-				<month>June</month>
-				<year>2001</year>
-			      </date>
-			    </to>
-			  </period>
-			  <description>
-			    <para>Tutored students in mathematics and physics.</para>
-			  </description>
-			</job>
-			<job targets="scientific">
-			  <jobtitle>Intern</jobtitle>
-			  <employer>State University of New York</employer>
-			  <location>
-			    <city>Stony Brook</city>
-			    <state>NY</state>
-			  </location>
-			  <date>
-			    <month>Summer</month>
-			    <year>2000</year>
-			  </date>
-			  <description>
-			    <para>Spent the summer as an intern under the REU (Research Experience for Undergraduates) program.  Worked at Brookhaven National Laboratory at the PHENIX detector of the RHIC (Relativistic Heavy Ion Collider) accelerator.  Helped construct multi-wire proportional chambers, one of a dozen detector subsystems.</para>
-			  </description>
-			</job>
-			<job targets="scientific">
-			  <jobtitle>Intern</jobtitle>
-			  <employer>University of Massachusetts</employer>
-			  <location>
-			    <city>Lowell</city>
-			    <state>MA</state>
-			  </location>
-			  <date>
-			    <month>Summer</month>
-			    <year>1999</year>
-			  </date>
-			  <description>
-			    <para>Member of the first group to participate in the ROSE (Reactor Operations and Systems Experience) program, headed by Dr. Gilbert Brown.  This program was held at UMass Lowell&apos;s on-site 1 MegaWatt nuclear reactor.  The intention of this program was to introduce students to the field of nuclear engineering.</para>
-			  </description>
-			</job>
-			<job targets="scientific">
-			  <jobtitle>Assistant Accelerator Operator</jobtitle>
-			  <employer>University of Massachusetts</employer>
-			  <period>
-			    <from>
-			      <date>
-				<month>September</month>
-				<year>1998</year>
-			      </date>
-			    </from>
-			    <to>
-			      <date>
-				<month>June</month>
-				<year>1999</year>
-			      </date>
-			    </to>
-			  </period>
-			  <description>
-			    <para>Worked part-time as assistant operator at van de Graff accelerator located at UMass Lowell under advisement of supervisor David DeSimone.</para>
-			  </description>
-			</job>-->
+    <job targets="scientific">
+      <jobtitle>Intern</jobtitle>
+      <employer>State University of New York</employer>
+      <location>
+	<city>Stony Brook</city>
+	<state>NY</state>
+      </location>
+      <date>
+	<month>Summer</month>
+	<year>2000</year>
+      </date>
+      <description>
+	<para>Spent the summer as an intern under the REU (Research Experience for Undergraduates) program.  Worked at Brookhaven National Laboratory at the PHENIX detector of the RHIC (Relativistic Heavy Ion Collider) accelerator.  Helped construct multi-wire proportional chambers, one of a dozen detector subsystems.</para>
+      </description>
+    </job>
+    <job targets="scientific">
+      <jobtitle>Intern</jobtitle>
+      <employer>University of Massachusetts</employer>
+      <location>
+	<city>Lowell</city>
+	<state>MA</state>
+      </location>
+      <date>
+	<month>Summer</month>
+	<year>1999</year>
+      </date>
+      <description>
+	<para>Member of the first group to participate in the ROSE (Reactor Operations and Systems Experience) program, headed by Dr. Gilbert Brown.  This program was held at UMass Lowell&apos;s on-site 1 MegaWatt nuclear reactor.  The intention of this program was to introduce students to the field of nuclear engineering.</para>
+      </description>
+    </job>
+    <job targets="scientific">
+      <jobtitle>Assistant Accelerator Operator</jobtitle>
+      <employer>University of Massachusetts</employer>
+      <period>
+	<from>
+	  <date>
+	    <month>September</month>
+	    <year>1998</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>June</month>
+	    <year>1999</year>
+	  </date>
+	</to>
+      </period>
+      <description>
+	<para>Worked part-time as assistant operator at van de Graff accelerator located at UMass Lowell under advisement of supervisor David DeSimone.</para>
+      </description>
+    </job>
+
     <job targets="automotive">
       <jobtitle>Automotive Technician</jobtitle>
       <employer><link href="http://www.actonlincolnmercury.com">Acton Lincoln-Mercury</link></employer>
@@ -375,6 +545,12 @@
 	<para>Worked part-time while pursuing degree in Automotive Technology in Ford ASSET program. Afterward, worked as a full-time technician with specialization in four-wheel alignment.</para>
       </description>
     </job>
+
+    <misc>
+      <para>I have made some contributions to the <link href="http://unisonweb.org/">unisonweb</link> project (http://unisonweb.org).  You can see my contributions here: https://github.com/unisonweb/unison/commits?author=tmciver.</para>
+      <para>I have also contibuted a fix to the cryptonite Haskell library: https://github.com/haskell-crypto/cryptonite/commits?author=tmciver.</para>
+    </misc>
+    
   </history>
   
   <academics>
@@ -516,70 +692,76 @@
 	</period>
 	<institution>Ford ASSET Program</institution>
       </degree>
+      <!-- <degree> -->
+      <!--   <level>Diploma</level> -->
+      <!--   <major>Automotive Technology</major> -->
+      <!--   <date><year>1992</year></date> -->
+      <!--   <institution><link href="http://www.shawsheentech.org">Shawsheen Valley Regional Vocational Technical High School</link></institution> -->
+      <!--   <location> -->
+      <!--     <city>Billerica</city> -->
+      <!--     <state>MA</state> -->
+      <!--   </location> -->
+      <!-- </degree> -->
       <degree>
-	<level>Diploma</level>
-	<major>Automotive Technology</major>
-	<date><year>1992</year></date>
-	<institution><link href="http://www.shawsheentech.org">Shawsheen Valley Regional Vocational Technical High School</link></institution>
-	<location>
-	  <city>Billerica</city>
-	  <state>MA</state>
-	</location>
+	<level>Online Courses</level>
+	<subjects>
+          <subject><title>Intro to SWI-Prolog (edu.swi-prolog.org, currently enrolled)</title></subject>
+          <subject><title>Docker Mastery (udemy.com, 2018)</title></subject>
+	  <subject><title>Paradigms of Computer Programing (edx.org, spring 2014)</title></subject>
+	  <subject><title>Programming Languages (coursera.org, fall 2014)</title></subject>
+	  <subject><title>Compilers (coursera.org, spring 2013)</title></subject>
+	  <subject><title>Circuits and Electronic, 6.002x (edx.org, fall 2012)</title></subject>
+	  <subject><title>Machine Learning (coursera.org, fall 2012)</title></subject>
+	  <subject><title>Automata (coursera.org, fall 2012)</title></subject>
+	  <subject><title>Functional Programing Principles in Scala (coursera.org, spring 2014)</title></subject>
+	</subjects>
       </degree>
     </degrees>
   </academics>
 
-  <interests>
-    <interest>
-      <title>Programming</title>
-      <description>I'm always trying to learn something new in the field of software engineering.  For some time I've wanted to learn a Lisp and about two years ago I became aware of <link href="http://clojure.org">Clojure</link>, a dialect of Lisp that runs on the JVM, and I've been hooked ever since.  I'm currently in the middle of writing a financial bookkeeping web application in Clojure, and I've contributed to the <link href="https://github.com/BankSimple/Clothesline">Clothesline project</link>, a Clojure port of <link href="https://bitbucket.org/justin/webmachine/wiki/Home">Webmachine</link>.</description>
-    </interest>
-    <interest>
-      <title>Woodworking</title>
-      <description>I've always enjoyed working with my hands and building things out of wood is one of many outlets I use to satisfy that need.  I've been building up a collection of woodworking tools and equipment for years and I try to put them to good use whenever the opportunity presents itself.</description>
-    </interest>
-    <interest>
-      <title>Music</title>
-      <description>I started playing the drums when I was a teenager and played in bands with friends occasionally for years.  I also learned to play the guitar in those days.  I don't play the drums anymore but I still enjoy playing my acoustic guitar.</description>
-    </interest>
-    <interest>
-      <title>Zymurgy</title>
-      <description>I don't drink much but I do like to knock back a cold one with dinner now and then.  Many years ago I discovered zymurgy (the science of brewing beer) when I found a beer-brewing kit in a mall science store.  The first beer I made was terrible but I've spent the last several years trying to perfect the art.  I'm even growing my own hops!</description>
-    </interest>
-  </interests>
+  <!-- <interests> -->
+  <!--   <interest> -->
+  <!--     <title>Programming</title> -->
+  <!--     <description>Much of my spare time is dedicated to learning new things in the field of software engineering. I'm almost always coding some pet project, taking an online course or reading a book on software. I'm particularly interested in functional programming.</description> -->
+  <!--   </interest> -->
+  <!--   <interest> -->
+  <!--     <title>Music</title> -->
+  <!--     <description>I started playing the drums when I was a teenager and played in bands with friends occasionally for years.  I also learned to play the guitar in those days and a bit of piano.  I don't play the drums anymore but I still enjoy playing my guitar and piano.</description> -->
+  <!--   </interest> -->
+  <!-- </interests> -->
 
-  <clearances targets="scientific">
-    <clearance>
-      <level>Secret</level>
-      <organization>DoD</organization>
-      <period>
-	<from>
-	  <date>
-	    <month>July</month>
-	    <year>2005</year>
-	  </date>
-	</from>
-	<to>
-	  <present />
-	</to>
-      </period>
-    </clearance>
-    <clearance>
-      <level>Top Secret</level>
-      <organization>DoD</organization>
-      <period>
-	<from>
-	  <date>
-	    <month>July</month>
-	    <year>2008</year>
-	  </date>
-	</from>
-	<to>
-	  <present />
-	</to>
-      </period>
-    </clearance>
-  </clearances>
+  <!-- <clearances targets="scientific"> -->
+  <!--   <clearance> -->
+  <!--     <level>Secret</level> -->
+  <!--     <organization>DoD</organization> -->
+  <!--     <period> -->
+  <!-- 	<from> -->
+  <!-- 	  <date> -->
+  <!-- 	    <month>July</month> -->
+  <!-- 	    <year>2005</year> -->
+  <!-- 	  </date> -->
+  <!-- 	</from> -->
+  <!-- 	<to> -->
+  <!-- 	  <present /> -->
+  <!-- 	</to> -->
+  <!--     </period> -->
+  <!--   </clearance> -->
+  <!--   <clearance> -->
+  <!--     <level>Top Secret</level> -->
+  <!--     <organization>DoD</organization> -->
+  <!--     <period> -->
+  <!-- 	<from> -->
+  <!-- 	  <date> -->
+  <!-- 	    <month>July</month> -->
+  <!-- 	    <year>2008</year> -->
+  <!-- 	  </date> -->
+  <!-- 	</from> -->
+  <!-- 	<to> -->
+  <!-- 	  <present /> -->
+  <!-- 	</to> -->
+  <!--     </period> -->
+  <!--   </clearance> -->
+  <!-- </clearances> -->
   
   <!--	<memberships>
 	<title>Professional Memberships</title>

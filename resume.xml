@@ -19,86 +19,14 @@
       <zip>04106</zip>
     </address>
     <contact>
-<!--      <phone>781-933-2143</phone>-->
-      <!-- <email>tim@timmciver.com</email> -->
+      <phone>781-933-2143</phone>
+      <email>tim@timmciver.com</email>
     </contact>
   </header>
 
   <objective>
     <para>To live a long, happy and fulfilling life with those that I love, doing what I love.</para>
   </objective>
-
-  <skillarea targets="software">
-    <title>Computer Skills</title>
-    <skillset>
-      <title>Languages</title>
-      <skill>Haskell</skill>
-      <skill>Purescript</skill>
-      <skill>Clojure</skill>
-      <skill>Scala</skill>
-      <skill>PHP</skill>
-      <skill>Java</skill>
-      <skill>C#</skill>
-      <skill>Python</skill>
-      <skill>C/C++</skill>
-    </skillset>
-    <skillset>
-      <title>IDEs</title>
-      <skill>Emacs</skill>
-      <skill>IntelliJ</skill>
-      <skill>Eclipse</skill>
-      <skill>Netbeans</skill>
-      <skill>Visual Studio</skill>
-    </skillset>
-    <skillset>
-      <title>Version Control</title>
-      <skill>Git</skill>
-      <skill>Subversion</skill>
-    </skillset>
-    <skillset>
-      <title>Build Systems</title>
-      <skill>SBT</skill>
-      <skill>Cabal</skill>
-      <skill>Stack</skill>
-      <skill>Maven</skill>
-      <skill>Ant</skill>
-      <skill>Make</skill>
-      <skill>Leiningen</skill>
-    </skillset>
-    <skillset>
-      <title>Testing</title>
-      <skill>ScalaTest</skill>
-      <skill>QuickCheck</skill>
-      <skill>HUnit</skill>
-      <skill>JUnit</skill>
-      <skill>CPPUnit</skill>
-      <skill>NUnit</skill>
-      <skill>PHPUnit</skill>
-    </skillset>
-    <skillset>
-      <title>Operating Systems</title>
-      <skill>Linux</skill>
-      <skill>Mac OSX</skill>
-      <skill>Windows</skill>
-    </skillset>
-    <skillset>
-      <title>Web Programming</title>
-      <skill>REST</skill>
-      <skill>Hypermedia APIs</skill>
-      <skill>X?HTML</skill>
-      <skill>Typescript</skill>
-      <skill>Javascript</skill>
-      <skill>Amazon Web Services (AWS)</skill>
-      <skill>Docker</skill>
-    </skillset>
-  </skillarea>
-
-  <skillarea targets="automotive">
-    <title>Automotive Skills</title>
-    <skillset>
-      <skill>Proficient in general auto repair.  ASE certified (1995-2000)</skill>
-    </skillset>
-  </skillarea>
 
   <history>
 
@@ -578,12 +506,79 @@
       </description>
     </job>
 
-    <misc>
-      <para>I have contributed to many open source software projects.</para>
-      <para>I am the founder of the <link href="https://www.meetup.com/Portland-Functional-Programming-Meetup/">Portland Functional Programming Meetup</link>.</para>
-    </misc>
-
   </history>
+
+  <skillarea targets="software">
+    <title>Computer Skills</title>
+    <skillset>
+      <title>Languages</title>
+      <skill>Haskell</skill>
+      <skill>Purescript</skill>
+      <skill>Clojure</skill>
+      <skill>Scala</skill>
+      <skill>PHP</skill>
+      <skill>Java</skill>
+      <skill>C#</skill>
+      <skill>Python</skill>
+      <skill>C/C++</skill>
+    </skillset>
+    <skillset>
+      <title>IDEs</title>
+      <skill>Emacs</skill>
+      <skill>IntelliJ</skill>
+      <skill>Eclipse</skill>
+      <skill>Netbeans</skill>
+      <skill>Visual Studio</skill>
+    </skillset>
+    <skillset>
+      <title>Version Control</title>
+      <skill>Git</skill>
+      <skill>Subversion</skill>
+    </skillset>
+    <skillset>
+      <title>Build Systems</title>
+      <skill>SBT</skill>
+      <skill>Cabal</skill>
+      <skill>Stack</skill>
+      <skill>Maven</skill>
+      <skill>Ant</skill>
+      <skill>Make</skill>
+      <skill>Leiningen</skill>
+    </skillset>
+    <skillset>
+      <title>Testing</title>
+      <skill>ScalaTest</skill>
+      <skill>QuickCheck</skill>
+      <skill>HUnit</skill>
+      <skill>JUnit</skill>
+      <skill>CPPUnit</skill>
+      <skill>NUnit</skill>
+      <skill>PHPUnit</skill>
+    </skillset>
+    <skillset>
+      <title>Operating Systems</title>
+      <skill>Linux</skill>
+      <skill>Mac OSX</skill>
+      <skill>Windows</skill>
+    </skillset>
+    <skillset>
+      <title>Web Programming</title>
+      <skill>REST</skill>
+      <skill>Hypermedia APIs</skill>
+      <skill>X?HTML</skill>
+      <skill>Typescript</skill>
+      <skill>Javascript</skill>
+      <skill>Amazon Web Services (AWS)</skill>
+      <skill>Docker</skill>
+    </skillset>
+  </skillarea>
+
+  <skillarea targets="automotive">
+    <title>Automotive Skills</title>
+    <skillset>
+      <skill>Proficient in general auto repair.  ASE certified (1995-2000)</skill>
+    </skillset>
+  </skillarea>
 
   <academics>
     <degrees>
@@ -820,4 +815,10 @@
       </period>
     </membership>
   </memberships>
+
+  <misc>
+    <para>I have contributed to many open source software projects over the course of my career.</para>
+    <para>I am the founder of the <link href="https://www.meetup.com/Portland-Functional-Programming-Meetup/">Portland Functional Programming Meetup</link>, based in Portland, Maine.</para>
+  </misc>
+  
 </resume>

@@ -602,112 +602,112 @@
 	  <city>Lowell</city>
 	  <state>MA</state>
 	</location>
-	<!--<subjects>
-	    <subject>
-	      <title>Calculus 1</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Calculus 2</title>
-	      <result>AB</result>
-	    </subject>
-	    <subject>
-	      <title>Calculus 3</title>
-	      <result>AB</result>
-	    </subject>
-	    <subject>
-	      <title>Differential Equations</title>
-	      <result>AB</result>
-	    </subject>
-	    <subject>
-	      <title>Applied Math 1</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Applied Math 2</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Probability and Math Statistics 1</title>
-	      <result>B</result>
-	    </subject>
-	    <subject>
-	      <title>Probability and Math Statistics 2</title>
-	      <result>B</result>
-	    </subject>
-	    <subject>
-	      <title>Physics 1 (Honors)</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Physics 1 Laboratory (Honors)</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Physics 2 (Honors)</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Physics 2 Laboratory (Honors)</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Physics 3 (Honors)</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Intermediate Experimental Physics Laboratory</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Intro to Modern Physics</title>
-	      <result>AB</result>
-	    </subject>
-	    <subject>
-	      <title>Physical Instrumentation Laboratory</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Electromagnetism 1</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Electromagnetism 2</title>
-	      <result>B</result>
-	    </subject>
-	    <subject>
-	      <title>Advanced Experimental Physics Laboratory 1</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Advanced Experimental Physics Laboratory 2</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Quantum Physics</title>
-	      <result>A</result>
-	    </subject>
-	    <subject>
-	      <title>Physical Optics and Waves</title>
-	      <result>AB</result>
-	    </subject>
-	    <subject>
-	      <title>Statistical Thermodynamics</title>
-	      <result>AB</result>
-	    </subject>
-	    <subject>
-	      <title>Classical Mechanics</title>
-	      <result>B</result>
-	    </subject>
-	    <subject>
-	      <title>Contemporary Physics</title>
-	      <result>AB</result>
-	    </subject>
-	    <subject>
-	      <title>Solid State Physics</title>
-	      <result>A</result>
-	    </subject>
-	  </subjects>-->
+	<subjects targets="hide">
+	  <subject>
+	    <title>Calculus 1</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Calculus 2</title>
+	    <result>AB</result>
+	  </subject>
+	  <subject>
+	    <title>Calculus 3</title>
+	    <result>AB</result>
+	  </subject>
+	  <subject>
+	    <title>Differential Equations</title>
+	    <result>AB</result>
+	  </subject>
+	  <subject>
+	    <title>Applied Math 1</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Applied Math 2</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Probability and Math Statistics 1</title>
+	    <result>B</result>
+	  </subject>
+	  <subject>
+	    <title>Probability and Math Statistics 2</title>
+	    <result>B</result>
+	  </subject>
+	  <subject>
+	    <title>Physics 1 (Honors)</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Physics 1 Laboratory (Honors)</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Physics 2 (Honors)</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Physics 2 Laboratory (Honors)</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Physics 3 (Honors)</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Intermediate Experimental Physics Laboratory</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Intro to Modern Physics</title>
+	    <result>AB</result>
+	  </subject>
+	  <subject>
+	    <title>Physical Instrumentation Laboratory</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Electromagnetism 1</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Electromagnetism 2</title>
+	    <result>B</result>
+	  </subject>
+	  <subject>
+	    <title>Advanced Experimental Physics Laboratory 1</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Advanced Experimental Physics Laboratory 2</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Quantum Physics</title>
+	    <result>A</result>
+	  </subject>
+	  <subject>
+	    <title>Physical Optics and Waves</title>
+	    <result>AB</result>
+	  </subject>
+	  <subject>
+	    <title>Statistical Thermodynamics</title>
+	    <result>AB</result>
+	  </subject>
+	  <subject>
+	    <title>Classical Mechanics</title>
+	    <result>B</result>
+	  </subject>
+	  <subject>
+	    <title>Contemporary Physics</title>
+	    <result>AB</result>
+	  </subject>
+	  <subject>
+	    <title>Solid State Physics</title>
+	    <result>A</result>
+	  </subject>
+	</subjects>
 	<gpa type="overall">
 	  <score>3.67</score>
 	</gpa>
@@ -724,16 +724,16 @@
 	</period>
 	<institution>Ford ASSET Program</institution>
       </degree>
-      <!-- <degree> -->
-      <!--   <level>Diploma</level> -->
-      <!--   <major>Automotive Technology</major> -->
-      <!--   <date><year>1992</year></date> -->
-      <!--   <institution><link href="http://www.shawsheentech.org">Shawsheen Valley Regional Vocational Technical High School</link></institution> -->
-      <!--   <location> -->
-      <!--     <city>Billerica</city> -->
-      <!--     <state>MA</state> -->
-      <!--   </location> -->
-      <!-- </degree> -->
+      <degree targets="automotive,general">
+        <level>Diploma</level>
+        <major>Automotive Technology</major>
+        <date><year>1992</year></date>
+        <institution><link href="http://www.shawsheentech.org">Shawsheen Valley Regional Vocational Technical High School</link></institution>
+        <location>
+          <city>Billerica</city>
+          <state>MA</state>
+        </location>
+      </degree>
       <degree>
 	<level>Online Courses</level>
 	<subjects>
@@ -751,74 +751,73 @@
     </degrees>
   </academics>
 
-  <!-- <interests> -->
-  <!--   <interest> -->
-  <!--     <title>Programming</title> -->
-  <!--     <description>Much of my spare time is dedicated to learning new things in the field of software engineering. I'm almost always coding some pet project, taking an online course or reading a book on software. I'm particularly interested in functional programming.</description> -->
-  <!--   </interest> -->
-  <!--   <interest> -->
-  <!--     <title>Music</title> -->
-  <!--     <description>I started playing the drums when I was a teenager and played in bands with friends occasionally for years.  I also learned to play the guitar in those days and a bit of piano.  I don't play the drums anymore but I still enjoy playing my guitar and piano.</description> -->
-  <!--   </interest> -->
-  <!-- </interests> -->
+  <interests>
+    <interest targets="software">
+      <title>Programming</title>
+      <description>Much of my spare time is dedicated to learning new things in the field of software engineering. I'm almost always coding some pet project, taking an online course or reading a book on software. I'm particularly interested in functional programming.</description>
+    </interest>
+    <interest>
+      <title>Music</title>
+      <description>I started playing the drums when I was a teenager and played in bands with friends occasionally for years.  I also learned to play the guitar in those days and a bit of piano.  I don't play the drums anymore but I still enjoy playing my guitar and piano.</description>
+    </interest>
+  </interests>
 
-  <!-- <clearances targets="scientific"> -->
-  <!--   <clearance> -->
-  <!--     <level>Secret</level> -->
-  <!--     <organization>DoD</organization> -->
-  <!--     <period> -->
-  <!-- 	<from> -->
-  <!-- 	  <date> -->
-  <!-- 	    <month>July</month> -->
-  <!-- 	    <year>2005</year> -->
-  <!-- 	  </date> -->
-  <!-- 	</from> -->
-  <!-- 	<to> -->
-  <!-- 	  <present /> -->
-  <!-- 	</to> -->
-  <!--     </period> -->
-  <!--   </clearance> -->
-  <!--   <clearance> -->
-  <!--     <level>Top Secret</level> -->
-  <!--     <organization>DoD</organization> -->
-  <!--     <period> -->
-  <!-- 	<from> -->
-  <!-- 	  <date> -->
-  <!-- 	    <month>July</month> -->
-  <!-- 	    <year>2008</year> -->
-  <!-- 	  </date> -->
-  <!-- 	</from> -->
-  <!-- 	<to> -->
-  <!-- 	  <present /> -->
-  <!-- 	</to> -->
-  <!--     </period> -->
-  <!--   </clearance> -->
-  <!-- </clearances> -->
+  <clearances targets="scientific">
+    <clearance>
+      <level>Secret</level>
+      <organization>DoD</organization>
+      <period>
+  	<from>
+  	  <date>
+  	    <month>July</month>
+  	    <year>2005</year>
+  	  </date>
+  	</from>
+  	<to>
+  	  <present />
+  	</to>
+      </period>
+    </clearance>
+    <clearance>
+      <level>Top Secret</level>
+      <organization>DoD</organization>
+      <period>
+  	<from>
+  	  <date>
+  	    <month>July</month>
+  	    <year>2008</year>
+  	  </date>
+  	</from>
+  	<to>
+  	  <present />
+  	</to>
+      </period>
+    </clearance>
+  </clearances>
 
-  <!--	<memberships>
-	<title>Professional Memberships</title>
-	<membership targets="scientific">
-	  <title>Member</title>
-	  <organization><&#x3a3;&#x3a0;&#x3a3Sigma Pi Sigma, Physics Honor Society</organization>
-						   </membership>
-	<membership targets="scientific">
-	  <title>President</title>
-	  <organization>Society of Physics Students, University of Massachusetts</organization>
-	  <period>
-	    <from>
-	      <date>
-		<month>September</month>
-		<year>1999</year>
-	      </date>
-	    </from>
-	    <to>
-	      <date>
-		<month>June</month>
-		<year>2001</year>
-	      </date>
-	    </to>
-	  </period>
-	</membership>
+  <memberships targets="hide">
+    <title>Professional Memberships</title>
+    <membership targets="scientific">
+      <title>Member</title>
+      <organization>&#x3a3;&#x3a0;&#x3a3;Sigma Pi Sigma, Physics Honor Society</organization>
+    </membership>
+    <membership targets="scientific">
+      <title>President</title>
+      <organization>Society of Physics Students, University of Massachusetts</organization>
+      <period>
+	<from>
+	  <date>
+	    <month>September</month>
+	    <year>1999</year>
+	  </date>
+	</from>
+	<to>
+	  <date>
+	    <month>June</month>
+	    <year>2001</year>
+	  </date>
+	</to>
+      </period>
+    </membership>
   </memberships>
-  -->
 </resume>

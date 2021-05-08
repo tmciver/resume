@@ -568,8 +568,13 @@
       <skill>X?HTML</skill>
       <skill>Typescript</skill>
       <skill>Javascript</skill>
-      <skill>Amazon Web Services (AWS)</skill>
+      
+    </skillset>
+    <skillset>
+      <title>Infrastructure</title>
       <skill>Docker</skill>
+      <skill>Amazon Web Services (AWS)</skill>
+      <skill>Azure Devops</skill>
     </skillset>
   </skillarea>
 

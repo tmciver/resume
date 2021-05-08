@@ -28,7 +28,7 @@
     <para>To live a long, happy and fulfilling life with those that I love, doing what I love.</para>
   </objective>
 
-  <skillarea targets="scientific">
+  <skillarea targets="software">
     <title>Computer Skills</title>
     <skillset>
       <title>Languages</title>
@@ -102,7 +102,7 @@
 
   <history>
 
-    <job>
+    <job targets="software">
       <jobtitle>Senior Haskell Developer</jobtitle>
       <employer><link href="https://www.ontellus.com/">Ontellus</link></employer>
       <location>
@@ -128,7 +128,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="software">
       <jobtitle>Contract/Freelance Software Engineer</jobtitle>
       <location>
 	<city>South Portland</city>
@@ -158,7 +158,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="software">
       <jobtitle>Senior Software Engineer</jobtitle>
       <employer><link href="https://maxwellhealth.com">Maxwell Health</link></employer>
       <location>
@@ -187,7 +187,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="software">
       <jobtitle>Senior Software Engineer</jobtitle>
       <employer><link href="http://http://www.mheducation.com">McGraw-Hill Education</link></employer>
       <location>
@@ -217,7 +217,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="software">
       <jobtitle>Software Engineer</jobtitle>
       <employer><link href="http://lambdaprime.com/">Lambda Prime</link></employer>
       <location>
@@ -245,7 +245,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="software">
       <jobtitle>Software Engineer</jobtitle>
       <employer><link href="http://www.corista.com/">Corista, LLC</link></employer>
       <location>
@@ -276,7 +276,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="old">
       <jobtitle>Digital Forensics Engineer</jobtitle>
       <employer><link href="http://www.basistech.com">Basis Technology</link> (Digital Forensics Group)</employer>
       <location>
@@ -306,7 +306,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="old">
       <jobtitle>Software Engineer</jobtitle>
       <employer><link href="http://www.raytheon.com">Raytheon Corporation</link></employer>
       <location>
@@ -335,7 +335,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="old">
       <jobtitle>Software Engineer</jobtitle>
       <employer><link href="http://www.ll.mit.edu">MIT Lincoln Laboratory</link></employer>
       <location>
@@ -369,7 +369,7 @@
       </achievements>
     </job>
 
-    <job>
+    <job targets="old">
       <jobtitle>Research Engineer</jobtitle>
       <employer><link href="http://www.lockheedmartin.com">Lockheed Martin Corp.</link></employer>
       <location>
@@ -402,7 +402,7 @@
       </projects>
     </job>
 
-    <job>
+    <job targets="old">
       <jobtitle>Assistant Scientist</jobtitle>
       <employer><link href="http://www.sensarrayinfrared.com">Sensarray Infrared Corp.</link></employer>
       <location>

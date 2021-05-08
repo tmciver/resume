@@ -25,14 +25,14 @@
   </header>
   
   <objective>
-    <para>To obtain a rewarding and challenging position as a software engineer.</para>
+    <para>To live a long, happy and fulfilling life with those that I love, doing what I love.</para>
   </objective>
 
   <skillarea>
     <title>Skills</title>
     <skillset targets="scientific">
       <title>Computer</title>
-      <skill>Proficient in Java, C/C++, Python, Matlab and Clojure programming languages</skill>
+      <skill>Proficient in Java, C/C++, C#, Python, Matlab and Clojure programming languages</skill>
       <skill>Proficient with Emacs, Eclipse and Visual Studio</skill>
       <skill>Proficient with Subversion and Git version control systems</skill>
       <skill>Proficient with Make and Ant build systems</skill>
@@ -48,6 +48,36 @@
   
   <history>
     <job>
+      <jobtitle>Software Engineer</jobtitle>
+      <employer><link href="http://www.corista.com/">Corista, LLC</link></employer>
+      <location>
+	<city>Concord</city>
+	<state>Massachusetts</state>
+      </location>
+      <period>
+	<from>
+	  <date>
+	    <month>June</month>
+	    <year>2013</year>
+	  </date>
+	</from>
+	<to>
+	  <present />
+	</to>
+      </period>
+      <description><link href="http://www.corista.com/">Corista</link> is a software company whose flagship product is a digital pathology web application platform that assists pathologists in remote diagnoses.</description>
+      <projects>
+	<project>Created a Java library to parse pathology image data from large TIFF files.</project>
+	<project>Maintain and update a C# codebase used to generate an image pyramid from pathology slide images.</project>
+	<project>Parallelized pyramid generating code to take advantage of multicore processing.</project>
+	<project>Maintenance on a Java Servlets codebase.</project>
+	<project>Maintenance on a Ruby on Rails codebase.</project>
+      </projects>
+      <achievements>
+	<achievement>Took course in <link href="https://www.coursera.org/course/automata">automata theory</link> given by Professor Jeffrey Ullman through <link href="https://www.coursera.org">Coursera</link>.</achievement>
+      </achievements>
+    </job>
+    <job>
       <jobtitle>Digital Forensics Engineer</jobtitle>
       <employer><link href="http://www.basistech.com">Basis Technology</link> (Digital Forensics Group)</employer>
       <location>
@@ -62,9 +92,13 @@
 	  </date>
 	</from>
 	<to>
-	  <present />
+	  <date>
+	    <month>May</month>
+	    <year>2013</year>
+	  </date>
 	</to>
       </period>
+      <description><link href="http://www.basistech.com">Basis Technology</link> is a text analytics company that has a small but growing digital forensics group of which I was a part.</description>
       <projects>
 	<project>Developer of Autopsy, a module-based Netbeans GUI frontend to <link href="http://www.sleuthkit.org">The Sleuth Kit</link></project>
 	<project>Developed a Symbian phone OS application for a client</project>
@@ -72,8 +106,8 @@
 	<project>Main developer of the Memory Parsing Framework (MPF), a C++ application that leverages forensic functionality from <link href="http://www.sleuthkit.org">The Sleuth Kit</link> library to extract forensically-important data from a variety of mobile phones.</project>
       </projects>
       <achievements>
-	<achievement>Online course through <link href="www.coursera.org">Coursera.org</link>: <link href="www.coursera.org/course/ml">Machine Learning</link>, Fall 2012</achievement>
-	<achievement>Online course through <link href="www.edx.org">MIT edX</link>: <link href="www.edx.org/courses/MITx/6.002x/2013_Spring/about">6.002x Circuits and Electronics</link>, Fall 2012</achievement>
+	<achievement>Online course through <link href="http://www.coursera.org">Coursera.org</link>: <link href="http://www.coursera.org/course/ml">Machine Learning</link>, Fall 2012</achievement>
+	<achievement>Online course through <link href="http://www.edx.org">MIT edX</link>: <link href="http://www.edx.org/courses/MITx/6.002x/2013_Spring/about">6.002x Circuits and Electronics</link>, Fall 2012</achievement>
       </achievements>
     </job>
     <job>
@@ -97,6 +131,7 @@
 	  </date>	
 	</to>
       </period>
+      <description><link href="http://www.raytheon.com">Raytheon</link> is large defense contractor.  I worked as a software engineer in three different groups while I was there.</description>
       <projects>
 	<project>C++ Developer on CRUSHM, a simulator for the THAAD radar system.</project>
 	<project>C++ Developer on MMAT (Multi-Mission Analysis Tool) project, a simulation environment for the Zumwalt project</project>
@@ -125,7 +160,7 @@
 	</to>
       </period>
       <description>
-	<para>Work in Group 95 (formerly Group 903), Space Systems Analysis.</para>
+	<para>Worked in Group 95 (formerly Group 903), Space Systems Analysis.</para>
       </description>
       <projects>
 	<project>Design and implement simulation framework in Java for a space system analysis tool. Knowledgeable in event-based and process-interaction based simulation.</project>

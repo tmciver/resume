@@ -101,6 +101,33 @@
   </skillarea>
 
   <history>
+
+    <job>
+      <jobtitle>Senior Haskell Developer</jobtitle>
+      <employer><link href="https://www.ontellus.com/">Ontellus</link></employer>
+      <location>
+	<city>Houston</city>
+	<state>Texas</state>
+      </location>
+      <period>
+	<from>
+	  <date>
+	    <month>December</month>
+	    <year>2019</year>
+	  </date>
+	</from>
+	<to>
+          <present/>
+	</to>
+      </period>
+      <description>Ontellus is a records retrieval and processing company that handles document processing for the insurance and legal industries.</description>
+      <projects>
+        <project>Maintain and develop approximately 20 separate applications and libraries that implement the document processing pipeline. These applications are written in the Haskell, Clojure and Purescript programming languages.</project>
+        <project>Deploy applications to staging and production servers using Docker.</project>
+	<project>Created an X-ray film viewer application in Javascript.</project>
+      </projects>
+    </job>
+
     <job>
       <jobtitle>Contract/Freelance Software Engineer</jobtitle>
       <location>
@@ -115,7 +142,10 @@
 	  </date>
 	</from>
 	<to>
-          <present/>
+          <date>
+	    <month>November</month>
+	    <year>2019</year>
+	  </date>
 	</to>
       </period>
       <description>Currently working as a freelance/contract software engineer helping clients to grow their small businesses.</description>

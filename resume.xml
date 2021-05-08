@@ -23,7 +23,7 @@
       <!-- <email>tim@timmciver.com</email> -->
     </contact>
   </header>
-  
+
   <objective>
     <para>To live a long, happy and fulfilling life with those that I love, doing what I love.</para>
   </objective>
@@ -156,7 +156,7 @@
 	<project>I've given several presentations to engineering at Maxwell Health on such topics as <link href="https://tmciver.github.io/ddd-presentation/">"Domain-Driven Design"</link>, <link href="https://tmciver-maxwell.github.io/adt-in-scala/">"Abstract Data Types"</link> and <link href="https://tmciver.github.io/pattern-matching-in-oop">"Pattern Matching in OOP"</link>.</project>
       </projects>
     </job>
-    
+
     <job>
       <jobtitle>Senior Software Engineer</jobtitle>
       <employer><link href="http://http://www.mheducation.com">McGraw-Hill Education</link></employer>
@@ -552,9 +552,9 @@
       <para>I have made some contributions to the <link href="http://unisonweb.org/">unisonweb</link> project (http://unisonweb.org).  You can see my contributions here: https://github.com/unisonweb/unison/commits?author=tmciver.</para>
       <para>I have also contibuted a fix to the cryptonite Haskell library: https://github.com/haskell-crypto/cryptonite/commits?author=tmciver.</para>
     </misc>
-    
+
   </history>
-  
+
   <academics>
     <degrees>
       <degree>
@@ -764,7 +764,7 @@
   <!--     </period> -->
   <!--   </clearance> -->
   <!-- </clearances> -->
-  
+
   <!--	<memberships>
 	<title>Professional Memberships</title>
 	<membership targets="scientific">
@@ -790,5 +790,5 @@
 	  </period>
 	</membership>
   </memberships>
-  -->	
+  -->
 </resume>
